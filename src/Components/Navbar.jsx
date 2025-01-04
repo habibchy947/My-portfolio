@@ -47,7 +47,7 @@ const Navbar = () => {
                     href='https://docs.google.com/document/d/1asxVaV76xjD9jCpvCUKAv1MV4ZYeCYoITb73Rumhzxc/edit?usp=sharing'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className="btn btn-ghost font-semibold border-pink-500 shadow-lg">Resume</a>
+                    className="btn btn-ghost font-semibold text-white border-pink-500 shadow-lg">Resume</a>
             </div>
         </div>
     );

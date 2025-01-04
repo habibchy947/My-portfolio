@@ -1,0 +1,27 @@
+[
+    {
+        "skill": "HTML",
+        "percentage": 95,
+        "image": "https://i.ibb.co.com/C62RVpg/icons8-html-48.png"
+    },
+    {
+        "skill": "CSS",
+        "percentage": 88,
+        "image": "https://i.ibb.co.com/vDTPc9F/icons8-css-48.png"
+    },
+    {
+        "skill": "JavaScript",
+        "percentage": 85,
+        "image": "https://i.ibb.co.com/gSbKKx8/js.png"
+    },
+    {
+        "skill": "React",
+        "percentage": 80,
+        "image": "https://i.ibb.co.com/s2c56NN/react.png"
+    },
+    {
+        "skill": "Tailwind CSS",
+        "percentage": 82,
+        "image": "https://i.ibb.co.com/JFrhK6x/icons8-tailwind-css-48.png"
+    }
+]

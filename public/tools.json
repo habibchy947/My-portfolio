@@ -1,0 +1,33 @@
+[
+    {
+        "skill": "Git",
+        "percentage": 90,
+        "image": "https://i.ibb.co.com/McJPKS2/icons8-git-48.png"
+    },
+    {
+        "skill": "GitHub",
+        "percentage": 92,
+        "image": "https://i.ibb.co.com/sRNqTHR/icons8-github-50.png"
+    },
+    {
+        "skill": "VS Code",
+        "percentage": 95,
+        "image": "https://i.ibb.co.com/BPT77V7/icons8-visual-studio-48.png"
+    },
+    {
+        "skill": "NPM",
+        "percentage": 85,
+        "image": "https://i.ibb.co.com/n7Q1qFv/icons8-npm-48.png"
+    },
+    {
+        "skill": "ESLint",
+        "percentage": 85,
+        "image": "https://i.ibb.co.com/Y4C2MMS/icons8-eslint-48.png"
+    },
+    {
+        "skill": "Figma",
+        "percentage": 70,
+        "image": "https://i.ibb.co.com/6BDBGvb/icons8-figma-50.png"
+    }
+    
+]
