@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import profile_img from '../assets/habib_image.png'
 const Banner = () => {
     return (
-        <div className='flex w-11/12 items-center md:w-full sm:px-5 lg:px-0 py-16 mx-auto gap-10 flex-col md:flex-row-reverse'>
-            <div className='md:w-1/2 h-[500px] flex items-center justify-center relative'>
+        <div className='flex w-11/12 items-center sm:px-5 lg:px-0 py-16 mx-auto gap-10 flex-col md:flex-row-reverse'>
+            <div className='md:w-1/2 h-[500px] flex items-center justify-end relative'>
                 <div className=' inset-0 border-8 h-full animate-pulse-border w-full lg:w-2/3 rounded-md object-contain'>
                     <img className=' w-full lg:w-[500px] h-full object-cover' src={profile_img} alt="" />
                 </div>

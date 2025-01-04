@@ -9,11 +9,10 @@ const Navbar = () => {
             <li><NavLink to='/'>Contact</NavLink></li>
             <li><NavLink to='/'>Projects</NavLink></li>
             <li><NavLink to='/'>Skills</NavLink></li>
-            <li><NavLink to='/'>Skills</NavLink></li>
         </>
    
     return (
-        <div className="navbar px-2 sm:px-0 mx-auto sticky top-0">
+        <div className="navbar px-2 sm:px-0 mx-auto shadow-lg sticky top-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
