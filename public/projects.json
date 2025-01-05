@@ -1,26 +1,100 @@
 [
     {
-      "id": 1,
-      "name": "DineWise",
-      "description": "A full-stack application built with the MERN Stack for managing restaurant operations. It includes features like user authentication, food management, a responsive design, and a purchasing system with JWT authentication.",
-      "image": "https://i.ibb.co.com/dGCrkhG/dinewise.png",
-      "liveLink": "https://dinewise-6e5a1.web.app",
-      "repoLink": "https://github.com/Jihanchy/Dinewise-Client"
+        "id": 1,
+        "name": "DineWise",
+        "description": "A full-stack application built with the MERN Stack for managing restaurant operations. It includes features like user authentication, food management, a responsive design, and a purchasing system with JWT authentication.",
+        "technologies": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "projectGoals": [
+            "Allow users to register and log in",
+            "Create CRUD operations for posts",
+            "Enable user comments on posts"
+        ],
+        "features": [
+            "Fully responsive on mobile, tablet, and desktop devices",
+            "Authentication system with email/password login and social login (Google or GitHub)",
+            "JWT authentication for securing private routes",
+            "Food purchasing system with quantity management and purchase button disabled when out of stock",
+            "Search functionality for food items",
+            "Add and manage food items for staff with an admin panel",
+            "User profile section with image upload and editable details",
+            "Order management for users with the ability to view and delete orders",
+            "Gallery page with interactive images using lightbox",
+            "Theme toggling (light/dark mode) for user preference"
+        ],
+        "image": "https://i.ibb.co.com/dGCrkhG/dinewise.png",
+        "liveLink": "https://dinewise-6e5a1.web.app",
+        "repoLink": "https://github.com/Jihanchy/Dinewise-Client"
     },
     {
-      "id": 2,
-      "name": "Sportify",
-      "description": "Sportify is a responsive e-commerce platform for buying and managing sports equipment, built with the MERN Stack. It allows users to browse, purchase, and manage sports gear while providing a seamless shopping experience.",
-      "image": "https://i.ibb.co.com/QNFFmJC/sportify-png.png",
-      "liveLink": "https://sportify-fe915.web.app",
-      "repoLink": "https://github.com/Jihanchy/Sportify-client"
+        "id": 2,
+        "name": "Sportify",
+        "description": "Sportify is a responsive e-commerce platform for buying and managing sports equipment, built with the MERN Stack. It allows users to browse, purchase, and manage sports gear while providing a seamless shopping experience.",
+        "technologies": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Firebase",
+            "JWT"
+        ],
+        "projectGoals": [
+            "Allow users to register and log in with email/password and third-party authentication",
+            "Support CRUD operations for sports equipment (Add, View, Update, Delete)",
+            "Ensure full responsiveness across all devices",
+            "Secure user data and Firebase/MongoDB credentials using environment variables",
+            "Implement JWT for private route authentication"
+        ],
+        "features": [
+            "Navbar with dynamic login/logout based on user authentication",
+            "Home page with banner, sports categories, and featured products",
+            "Add Equipment form (private route) for logged-in users to add new products",
+            "Sports Equipment list with search and details view",
+            "User-specific 'My Equipment List' for managing their added products",
+            "Update and delete functionality for equipment",
+            "Responsive and attractive design for mobile, tablet, and desktop views",
+            "404 page for non-existing routes",
+            "Loading spinner for data fetching"
+        ],
+        "image": "https://i.ibb.co.com/QNFFmJC/sportify-png.png",
+        "liveLink": "https://sportify-fe915.web.app",
+        "repoLink": "https://github.com/Jihanchy/Sportify-client"
     },
     {
-      "id": 3,
-      "name": "Mentor Quest",
-      "description": "Mentor Quest is a dynamic platform designed to provide users with personalized career guidance and resources to help them make informed decisions about their professional future. Built using React, Firebase, and modern design principles, it ensures a smooth and engaging user experience.",
-      "image": "https://i.ibb.co.com/C1Lv2sn/mentor-quest-png.png",
-      "liveLink": "https://mentor-quest-habib.netlify.app",
-      "repoLink": "https://github.com/Jihanchy/MentorQuest"
+        "id": 3,
+        "name": "Mentor Quest",
+        "description": "Mentor Quest is a dynamic platform designed to provide users with personalized career guidance and resources to help them make informed decisions about their professional future. Built using React, Firebase, and modern design principles, it ensures a smooth and engaging user experience.",
+        "technologies": [
+            "React",
+            "React Router",
+            "Firebase",
+            "CSS",
+            "SweetAlert"
+        ],
+        "projectGoals": [
+            "Provide personalized career counseling services",
+            "Enable users to register, log in, and update their profile",
+            "Offer detailed information about each service with a Learn More button",
+            "Implement password visibility toggle and user profile update",
+            "Ensure the website is responsive on all devices"
+        ],
+        "features": [
+            "Navbar with dynamic login/logout and user image display",
+            "Home page with slider, services section, and additional content",
+            "Service cards displaying service details, pricing, counselor info, and a Learn More button",
+            "Protected Service Details page with feedback submission functionality",
+            "User profile page where users can view and update their profile information",
+            "Login and Register pages with email/password authentication and Google login",
+            "404 page for non-existing routes",
+            "Password visibility toggle on the registration page",
+            "Loading spinner for dynamic content and login state updates"
+        ],
+        "image": "https://i.ibb.co.com/C1Lv2sn/mentor-quest-png.png",
+        "liveLink": "https://mentor-quest-habib.netlify.app",
+        "repoLink": "https://github.com/Jihanchy/MentorQuest"
     }
-  ]
+]

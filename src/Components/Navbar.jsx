@@ -1,13 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import logo from '../assets/portfolio-logo.png'
 import {Link } from 'react-scroll';
+import { Links, NavLink } from 'react-router-dom';
 const Navbar = () => {
     const links =
         <>
-            <li><Link to='/'>Home</Link></li>
+            <li><NavLink to='/'>Home</NavLink></li>
             <li><Link smooth={true} to='about'>About</Link></li>
-            <li><NavLink to='/'>Projects</NavLink></li>
+            <li><Link smooth={true} to='contact'>Contact</Link></li>
+            <li><Link smooth={true} to='projects'>Projects</Link></li>
             <li><Link smooth={true} to='skill'>Skills</Link></li>
             
         </>
