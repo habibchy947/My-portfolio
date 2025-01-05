@@ -22,7 +22,6 @@ const ProjectDetails = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                 <div className=''>
                     <p className=" text-lg text-gray-100">{project && project.description}</p>
-                    {/* Key Features */}
                     <div className='mt-10'>
                         <h2 className="text-2xl font-semibold mt-6 text-gray-50">Key Features</h2>
                         <ul className="mt-4 space-y-2 list-disc pl-6 text-gray-200">
@@ -32,7 +31,6 @@ const ProjectDetails = () => {
                         </ul>
                     </div>
                 </div>
-                {/* Project Goals */}
                 <div>
                     <h2 className="text-2xl font-semibold text-gray-50">Project Goals</h2>
                     <ul className="mt-4 space-y-2 list-disc pl-6 text-gray-200">
@@ -40,7 +38,6 @@ const ProjectDetails = () => {
                             <li key={index} className="text-lg">{goal}</li>
                         ))}
                     </ul>
-                    {/* Technologies Used */}
                     <div className='mt-10'>
                         <h2 className="text-2xl font-semibold text-gray-50">Technologies Used</h2>
                         <ul className="mt-4 flex flex-wrap items-center gap-4">
@@ -57,7 +54,6 @@ const ProjectDetails = () => {
                 </div>
 
             </div>
-            {/* Links Section */}
             <div className="mt-6 flex space-x-4 mb-10">
                 <Link to={project && project.liveLink}
                     className="px-6 py-3 bg-pink-500 text-white rounded-lg text-lg hover:bg-pink-700 transition duration-200"
