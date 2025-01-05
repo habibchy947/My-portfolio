@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end gap-2">
                 <a
-                    href='https://docs.google.com/document/d/1asxVaV76xjD9jCpvCUKAv1MV4ZYeCYoITb73Rumhzxc/edit?usp=sharing'
+                    href='https://docs.google.com/document/d/1y6jTD9iKShzoRbA7t8a8Jcj_-0DisccrzztL7JPVthI/edit?usp=sharing'
                     target='_blank'
                     rel='noopener noreferrer'
                     className="btn btn-ghost font-semibold text-white border-pink-500 shadow-lg">Resume</a>

@@ -28,8 +28,8 @@ const Banner = () => {
                     </div>
                     <div>
                         <a
-                            href='/resume.pdf'
-                            download='My_Resume.pdf'
+                            href='/habib_Resume.pdf'
+                            download='Habib_Resume.pdf'
                             className='btn btn-ghost font-semibold text-gray-300 border-pink-500 shadow-lg'>Download Resume</a>
                     </div>
                 </div>
