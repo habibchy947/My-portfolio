@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.card {
+.card1 {
     background: #07182E;
     position: relative;
     display: flex;
@@ -10,11 +10,11 @@
     overflow: hidden;
     border-radius: 20px;
   }
-      .card h2 {
+      .card1 h2 {
         z-index: 1;
         color: white;
       }
-      .card::before {
+      .card1::before {
         content: '';
         position: absolute;
         width: 100%;
@@ -34,7 +34,7 @@
         }
       }
       
-      .card::after {
+      .card1::after {
         content: '';
         position: absolute;
         background: #07182E;

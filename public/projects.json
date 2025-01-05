@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "DineWise",
+      "description": "A full-stack application built with the MERN Stack for managing restaurant operations. It includes features like user authentication, food management, a responsive design, and a purchasing system with JWT authentication.",
+      "image": "https://i.ibb.co.com/dGCrkhG/dinewise.png",
+      "liveLink": "https://dinewise-6e5a1.web.app",
+      "repoLink": "https://github.com/Jihanchy/Dinewise-Client"
+    },
+    {
+      "id": 2,
+      "name": "Sportify",
+      "description": "Sportify is a responsive e-commerce platform for buying and managing sports equipment, built with the MERN Stack. It allows users to browse, purchase, and manage sports gear while providing a seamless shopping experience.",
+      "image": "https://i.ibb.co.com/QNFFmJC/sportify-png.png",
+      "liveLink": "https://sportify-fe915.web.app",
+      "repoLink": "https://github.com/Jihanchy/Sportify-client"
+    },
+    {
+      "id": 3,
+      "name": "Mentor Quest",
+      "description": "Mentor Quest is a dynamic platform designed to provide users with personalized career guidance and resources to help them make informed decisions about their professional future. Built using React, Firebase, and modern design principles, it ensures a smooth and engaging user experience.",
+      "image": "https://i.ibb.co.com/C1Lv2sn/mentor-quest-png.png",
+      "liveLink": "https://mentor-quest-habib.netlify.app",
+      "repoLink": "https://github.com/Jihanchy/MentorQuest"
+    }
+  ]
