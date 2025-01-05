@@ -11,7 +11,7 @@ const Skills = () => {
     const back__end_skills = useFetch('backend_skills.json')
     const tools = useFetch('tools.json')
     return (
-        <div className='w-11/12 mx-auto py-16'>
+        <div id='skill' className='w-11/12 mx-auto py-16'>
             <h2 className='text-5xl text-white font-bold text-center'>My Skills</h2>
             {/* categories */}
             <div className='space-y-10 mt-10'>

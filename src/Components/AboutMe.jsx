@@ -5,7 +5,7 @@ import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
 
 const AboutMe = () => {
     return (
-        <div className='flex w-11/12 mx-auto my-10 flex-col md:flex-row items-center gap-6'>
+        <div id='about' className='flex w-11/12 mx-auto my-10 flex-col md:flex-row items-center gap-6'>
             <div className='flex flex-shrink-0 overflow-hidden border-neutral border-[30px] rounded-md shadow-xl group'>
                 <img className="w-full md:h-[470px] md:w-[400px] h-96 object-cover transform transition-transform duration-500 group-hover:scale-110" src={profile_img} alt="" />
             </div>
