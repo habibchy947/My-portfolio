@@ -6,8 +6,8 @@ const ProjectDetails = () => {
     const { id } = useParams()
     const projects = useFetch("/projects.json")
     const project = projects.find(singleProject => singleProject.id == id)
-    console.log(project)
-    console.log(id)
+    // console.log(project)
+    // console.log(id)
     return (
         <div className='w-11/12 mx-auto'>
             <div className=' py-20 space-y-5 bg-slate-900'>

@@ -4,7 +4,7 @@ import { useFetch } from '../Utils/useFetch';
 
 const MyProjects = () => {
     const projects = useFetch("projects.json")
-    console.log(projects)
+    // console.log(projects)
     return (
         <div id='projects' className='py-10 w-11/12 mx-auto'>
             <h2 className='text-4xl md:text-5xl text-center font-bold'>My Projects</h2>

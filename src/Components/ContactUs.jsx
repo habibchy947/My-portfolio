@@ -2,7 +2,10 @@ import React, { useRef } from 'react';
 import contactImg from '../assets/contact-img.jpg'
 import { Link } from 'react-router-dom';
 import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
+import lottiePhone from '../assets/phone.json'
+import lottieMail from '../assets/mail.json'
 import emailjs from '@emailjs/browser';
+import Lottie from 'lottie-react';
 const ContactUs = () => {
     const form = useRef()
     const sendEmail = (e) => {
@@ -14,15 +17,15 @@ const ContactUs = () => {
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    // console.log();
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    // console.log('FAILED...', error.text);
                 },
             );
     };
     return (
-        <div className="text-gray-300 py-12 px-6">
+        <div id='contact' className="text-gray-300 py-12 px-6">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl font-bold text-center text-gray-100 mb-8">
                     Contact With Me
@@ -43,16 +46,16 @@ const ContactUs = () => {
                             or collaborations.
                         </p>
                         <div className="mt-3">
-                            <p>
-                                <strong>Phone:</strong> +01234567890
+                            <p className='flex items-center'>
+                                <strong className=''><Lottie className='h-10 w-10' animationData={lottiePhone} loop={true}></Lottie></strong> 01613516358
                             </p>
-                            <p>
-                                <strong>Email:</strong>{" "}
+                            <p className='flex items-center'>
+                                <strong><Lottie className='h-7 w-10' animationData={lottieMail} loop={true}></Lottie></strong>{" "}
                                 <a
-                                    href="mailto:admin@example.com"
+                                    href="mailto:habibullahalquaderi2005@gmail.com"
                                     className="text-blue-500 hover:underline"
                                 >
-                                    admin@example.com
+                                    habibullahalquaderi2005@gmail.com
                                 </a>
                             </p>
                         </div>
