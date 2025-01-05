@@ -5,14 +5,14 @@ const EducationalQualification = () => {
         <div className='py-5 w-9/12 mx-auto'>
             <h2 className='text-center text-gray-50 text-4xl md:text-5xl font-bold mb-12'>Educational Qualification</h2>
             <div className='md:flex gap-3 space-y-5 md:space-y-0'>
-                <div className='md:w-[45%]  card1 p-10'>
+                <div className='md:w-[45%] flex-col card1 p-10'>
                     <h2><span className='text-lg font-semibold text-gray-50'>Degree : </span>Bachelor of Social Science(Honors)</h2>
                     <h2><span className='text-lg font-semibold text-gray-50'>Institution : </span>Chittagong University</h2>
                     <h2><span className='text-lg font-semibold text-gray-50'>Subject : </span>Political Science</h2>
                     <h2><span className='text-lg font-semibold text-gray-50'>Status : </span>First Year</h2>
                 </div>
                 <div className='border-4 border-pink-400 md:h-52 rounded-lg'></div>
-                <div className='md:w-[45%] card1 p-10'>
+                <div className='md:w-[45%] card1 flex-col p-10'>
                     <h2><span className='text-lg font-semibold text-gray-50'>Degree : </span>Fazil(degree)</h2>
                     <h2><span className='text-lg font-semibold text-gray-50'>Institution : </span>Jamia Ahmadia Sunnia Alia Madrasah</h2>
                     <h2><span className='text-lg font-semibold text-gray-50'>Status : </span>First Year</h2>
