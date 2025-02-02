@@ -13,7 +13,7 @@ const Banner = () => {
             <div className='md:w-1/2'>
                 <p className='text-gray-300 text-lg font-semibold mb-3'>Junior Web Developer</p>
                 <h1 className='text-5xl sm:text-6xl font-extrabold leading-tight text-gray-50 mb-6'>Hi, I'm <span className='text-pink-600'>Md. Habib Ullah Chowdhury</span></h1>
-                <p className='text-gray-300'>A passionate and result driven <span className='text-pink-500'>Full Stack Web Developer</span>.
+                <p className='text-gray-300'>A passionate and result driven <span className='text-pink-500'>Full Stack Web Developer (MERN)</span>.
                     I specialize in crafting modern, user focused web applications using the latest technologies
                     like React, Node.js, Express.js and MongoDB.
                 </p>
