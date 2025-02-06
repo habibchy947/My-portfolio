@@ -5,7 +5,7 @@ import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
 
 const AboutMe = () => {
     return (
-        <div id='about' className='flex w-11/12 mx-auto my-10 flex-col md:flex-row items-center gap-6'>
+        <div id='about' className='flex w-11/12 mx-auto my-10 flex-col-reverse md:flex-row items-center gap-6'>
             <div className='flex flex-shrink-0 overflow-hidden border-neutral border-[30px] rounded-md shadow-xl group'>
                 <img className="w-full md:h-[470px] md:w-[400px] h-96 object-cover transform transition-transform duration-500 group-hover:scale-110" src={profile_img} alt="" />
             </div>
@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <h2 className='text-5xl font-semibold uppercase text-white'>About Me</h2>
                 <h3 className='text-3xl font-semibold text-pink-400 mt-5 md:mt-2 lg:mt-9'>Hi, I'm Md. Habib Ullah Chowdhury</h3>
                 <p className='text-gray-300 mt-4 leading-relaxed'>I am a passionate
-                    <span className='text-pink-400 font-semibold'> Full Stack Web Developer </span>
+                    <span className='text-pink-400 font-semibold'> Full Stack Web Developer (MERN) </span>
                     dedicated to crafting visually stunning and user friendly websites. My journey began with curiosity about website but now
                     I specialize in modern frameworks like <span className='font-semibold'>React</span>,
                     <span className='font-semibold'> Tailwind CSS</span>,

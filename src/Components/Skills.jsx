@@ -35,7 +35,7 @@ const Skills = () => {
                                     slidesPerView: 3,
                                 },
                                 1024: {
-                                    slidesPerView: 4,
+                                    slidesPerView: 5,
                                 },
                             }}
                         >
@@ -45,9 +45,7 @@ const Skills = () => {
                                         <div className='bg-gray-800 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-500 bg-blend-overlay p-6 rounded-lg shadow-md hover:shadow-lg transition-transform hover:-translate-y-1'>
                                             <div className='flex flex-col items-center justify-center space-y-3'>
                                                 <img className='w-12 h-12 hover:scale-110 transition-transform duration-200' src={skill.image} alt="" />
-                                                <h4 className='text-xl font-semibold text-pink-400 mt-3'>{skill.skill}</h4>
-                                                <progress className="progress text-pink-400 md:w-56 mt-4" value={skill.percentage} max="100"></progress>
-                                                
+                                                <h4 className='text-xl font-semibold text-pink-400 mt-3'>{skill.skill}</h4>                                                
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -75,7 +73,7 @@ const Skills = () => {
                                     slidesPerView: 3, 
                                 },
                                 1024: {
-                                    slidesPerView: 4, 
+                                    slidesPerView: 5, 
                                 },
                             }}
                         >
@@ -86,7 +84,6 @@ const Skills = () => {
                                             <div className='flex flex-col items-center justify-center space-y-3'>
                                                 <img className='w-12 h-12 hover:scale-110 transition-transform duration-200' src={skill.image} alt="" />
                                                 <h4 className='text-xl font-semibold text-pink-400 mt-3'>{skill.skill}</h4>
-                                                <progress className="progress text-pink-400 md:w-56 mt-4" value={skill.percentage} max="100"></progress>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -114,7 +111,7 @@ const Skills = () => {
                                     slidesPerView: 3, 
                                 },
                                 1024: {
-                                    slidesPerView: 4, 
+                                    slidesPerView: 5, 
                                 },
                             }}
                         >
@@ -125,7 +122,6 @@ const Skills = () => {
                                             <div className='flex flex-col items-center justify-center space-y-3'>
                                                 <img className='w-12 h-12 hover:scale-110 transition-transform duration-200' src={skill.image} alt="" />
                                                 <h4 className='text-xl font-semibold text-pink-400 mt-3'>{skill.skill}</h4>
-                                                <progress className="progress text-pink-400 md:w-56 mt-4" value={skill.percentage} max="100"></progress>
                                             </div>
                                         </div>
                                     </SwiperSlide>

@@ -4,12 +4,7 @@ import { Link } from 'react-router-dom';
 import profile_img from '../assets/habib_image.png'
 const Banner = () => {
     return (
-        <div className='flex w-11/12 items-center sm:px-5 lg:px-0 py-16 mx-auto gap-10 flex-col md:flex-row-reverse'>
-            <div className='md:w-1/2 h-[450px] flex items-center justify-end relative'>
-                <div className=' inset-0 border-8 h-full animate-pulse-border w-full lg:w-2/3 rounded-md object-contain'>
-                    <img className=' w-full lg:w-[500px] h-full object-cover' src={profile_img} alt="" />
-                </div>
-                </div>
+        <div className='flex w-11/12 items-center sm:px-5 lg:px-0 py-16 mx-auto gap-10 flex-col md:flex-row'>
             <div className='md:w-1/2'>
                 <p className='text-gray-300 text-lg font-semibold mb-3'>Junior Web Developer</p>
                 <h1 className='text-5xl sm:text-6xl font-extrabold leading-tight text-gray-50 mb-6'>Hi, I'm <span className='text-pink-600'>Md. Habib Ullah Chowdhury</span></h1>
@@ -32,6 +27,11 @@ const Banner = () => {
                             download='Habib_Resume.pdf'
                             className='btn btn-ghost font-semibold text-gray-300 border-pink-500 shadow-lg'>Download Resume</a>
                     </div>
+                </div>
+            </div>
+            <div className='md:w-1/2 h-[450px] flex items-center justify-end relative'>
+                <div className=' inset-0 border-8 h-full animate-pulse-border w-full lg:w-2/3 rounded-md object-contain'>
+                    <img className=' w-full lg:w-[500px] h-full object-cover' src={profile_img} alt="" />
                 </div>
             </div>
         </div>
