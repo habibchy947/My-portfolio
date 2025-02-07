@@ -39,7 +39,7 @@ const ContactUs = () => {
                             className="rounded-lg h-60 w-full object-cover mb-6"
                         />
                         <h3 className="text-2xl font-semibold text-gray-100">Md. Habib Ullah Chowdhury</h3>
-                        <p className="text-gray-400">Full Stack Web-developer</p>
+                        <p className="text-gray-400">Full Stack Web-developer (MERN)</p>
                         <p className="mt-4">
                             Let’s build something amazing together!
                             Feel free to reach out to discuss projects
@@ -108,7 +108,7 @@ const ContactUs = () => {
                             ></textarea>
                             <button
                                 type="submit"
-                                className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-md transition duration-200"
+                                className="mt-6 w-full bg-pink-500 hover:bg-pink-700 text-white py-3 rounded-md transition duration-200"
                             >
                                 Send Message →
                             </button>

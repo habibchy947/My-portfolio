@@ -26,6 +26,14 @@
             "Gallery page with interactive images using lightbox",
             "Theme toggling (light/dark mode) for user preference"
         ],
+        "challengesFaced": [
+            "Proper JWT Handling"
+        ],
+        "potentialImprovements": [
+            "Performance Optimization",
+            "Role based access control",
+            "Advanced search and filtering"
+        ],
         "image": "https://i.ibb.co.com/dGCrkhG/dinewise.png",
         "liveLink": "https://dinewise-6e5a1.web.app",
         "repoLink": "https://github.com/Jihanchy/Dinewise-Client"
@@ -60,6 +68,14 @@
             "404 page for non-existing routes",
             "Loading spinner for data fetching"
         ],
+        "challengesFaced": [
+            "Implement sorting in backend"
+        ],
+        "potentialImprovements": [
+            "Performance Optimization",
+            "Adding micro-animatioin",
+            "Admin dashboard"
+        ],
         "image": "https://i.ibb.co.com/QNFFmJC/sportify-png.png",
         "liveLink": "https://sportify-fe915.web.app",
         "repoLink": "https://github.com/Jihanchy/Sportify-client"
@@ -92,6 +108,15 @@
             "404 page for non-existing routes",
             "Password visibility toggle on the registration page",
             "Loading spinner for dynamic content and login state updates"
+        ],
+        "challengesFaced": [
+            "Slider compatibility",
+            "Dark mode persistance"
+        ],
+        "potentialImprovements": [
+            "Appoitment scheduling",
+            "Resume Builder",
+            "Ai poweres career solution"
         ],
         "image": "https://i.ibb.co.com/C1Lv2sn/mentor-quest-png.png",
         "liveLink": "https://mentor-quest-habib.netlify.app",
