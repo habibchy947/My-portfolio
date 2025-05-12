@@ -23,7 +23,7 @@ const Banner = () => {
                     </div>
                     <div>
                         <a
-                            href='/habib-chy-resume.pdf'
+                            href='/habibullah-chy-mern-stack-developer-resume.pdf'
                             download='Habib_Resume.pdf'
                             className='btn btn-ghost font-semibold text-gray-300 border-pink-500 shadow-lg'>Download Resume</a>
                     </div>

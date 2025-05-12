@@ -14,7 +14,7 @@ const Navbar = () => {
         </>
    
     return (
-        <div className="navbar px-2 sm:px-0 mx-auto shadow-lg bg-transparent bg-neutral  z-30 bg-opacity-90 sticky top-0">
+        <div className="navbar px-10 mx-auto shadow-lg bg-transparent bg-gray-700  z-30 bg-opacity-90 sticky top-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end gap-2">
                 <a
-                    href='https://drive.google.com/file/d/1KJi3Yn964-mIuOK-ws9uEw7qgtle-D8-/view?usp=sharing'
+                    href='https://drive.google.com/file/d/1FZh6RG3xm0ppo06zI8F1U3lM5bJVKV19/view?usp=drive_link'
                     target='_blank'
                     rel='noopener noreferrer'
                     className="btn btn-ghost font-semibold text-white border-pink-500 shadow-lg">Resume</a>
