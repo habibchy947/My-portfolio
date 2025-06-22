@@ -1,6 +1,51 @@
 [
     {
         "id": 1,
+        "name": "SwiftParcel",
+        "description": "SwiftParcel is a full-stack application built using the MERN stack to manage parcel deliveries. This system enables users to book parcels, admins to assign deliveries, and delivery personnel to manage their deliveries efficiently. The app features role-based access, responsive design, advanced form handling, secure authentication, and real-time data operations.",
+        "technologies": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Stripe"
+        ],
+        "projectGoals": [
+            "Enable users to book and track parcel deliveries",
+            "Allow admin to manage bookings, users, and deliverymen",
+            "Provide real-time statistics and performance metrics",
+            "Enhance user engagement with reviews and ratings",
+            "Ensure a secure, scalable, and responsive experience"
+        ],
+        "features": [
+            "Role-based access: User, Delivery Men, Admin",
+            "JWT-based secure private routes (stored in localStorage)",
+            "Parcel booking form with real-time price calculation",
+            "Admin panel to assign deliverymen and update booking statuses",
+            "Delivery dashboard with parcel delivery management",
+            "Stripe integration for parcel payments",
+            "Real-time parcel stats with MongoDB aggregation",
+            "Parcel review system with ratings and feedback",
+            "Map-based parcel location viewer using React Leaflet",
+            "Pagination, search, and filtering in admin dashboards",
+            "Custom animations and Shadcn UI library used throughout"
+        ],
+        "challengesFaced": [
+            "Managing real-time state updates in multi-role dashboards",
+            "Dashboard mongodb aggregation"
+        ],
+        "potentialImprovements": [
+            "Better UX with custom alerts, toasts, and form validation",
+            "Atomic & Modular Architecture",
+            "Advanced MongoDB Aggregation for Real-time Insights",
+            "Interactive Location Intelligence"
+        ],
+        "image": "https://i.ibb.co/fVCcRj5J/Swift-Parcel.png",
+        "liveLink": "https://swiftparcel-a0316.web.app",
+        "repoLink": "https://github.com/habibchy947/SwiftParcel-Client"
+    },
+    {
+        "id": 2,
         "name": "DineWise",
         "description": "A full-stack application built with the MERN Stack for managing restaurant operations. It includes features like user authentication, food management, a responsive design, and a purchasing system with JWT authentication.",
         "technologies": [
@@ -39,7 +84,7 @@
         "repoLink": "https://github.com/Jihanchy/Dinewise-Client"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Sportify",
         "description": "Sportify is a responsive e-commerce platform for buying and managing sports equipment, built with the MERN Stack. It allows users to browse, purchase, and manage sports gear while providing a seamless shopping experience.",
         "technologies": [
@@ -79,47 +124,8 @@
         "image": "https://i.ibb.co.com/QNFFmJC/sportify-png.png",
         "liveLink": "https://sportify-fe915.web.app",
         "repoLink": "https://github.com/Jihanchy/Sportify-client"
-    },
-    {
-        "id": 3,
-        "name": "Mentor Quest",
-        "description": "Mentor Quest is a dynamic platform designed to provide users with personalized career guidance and resources to help them make informed decisions about their professional future. Built using React, Firebase, and modern design principles, it ensures a smooth and engaging user experience.",
-        "technologies": [
-            "React",
-            "React Router",
-            "Firebase",
-            "CSS",
-            "SweetAlert"
-        ],
-        "projectGoals": [
-            "Provide personalized career counseling services",
-            "Enable users to register, log in, and update their profile",
-            "Offer detailed information about each service with a Learn More button",
-            "Implement password visibility toggle and user profile update",
-            "Ensure the website is responsive on all devices"
-        ],
-        "features": [
-            "Navbar with dynamic login/logout and user image display",
-            "Home page with slider, services section, and additional content",
-            "Service cards displaying service details, pricing, counselor info, and a Learn More button",
-            "Protected Service Details page with feedback submission functionality",
-            "User profile page where users can view and update their profile information",
-            "Login and Register pages with email/password authentication and Google login",
-            "404 page for non-existing routes",
-            "Password visibility toggle on the registration page",
-            "Loading spinner for dynamic content and login state updates"
-        ],
-        "challengesFaced": [
-            "Slider compatibility",
-            "Dark mode persistance"
-        ],
-        "potentialImprovements": [
-            "Appoitment scheduling",
-            "Resume Builder",
-            "Ai poweres career solution"
-        ],
-        "image": "https://i.ibb.co.com/C1Lv2sn/mentor-quest-png.png",
-        "liveLink": "https://mentor-quest-habib.netlify.app",
-        "repoLink": "https://github.com/Jihanchy/MentorQuest"
     }
 ]
+
+
+

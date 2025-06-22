@@ -25,7 +25,7 @@ const ContactUs = () => {
             );
     };
     return (
-        <div id='contact' className="text-gray-300 py-12 px-6">
+        <div id='contact' className="text-gray-300 py-12 w-11/12 mx-auto">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl font-bold text-center text-gray-100 mb-8">
                     Contact With Me
@@ -55,7 +55,7 @@ const ContactUs = () => {
                                     href="mailto:habibullahalquaderi2005@gmail.com"
                                     className="text-blue-500 hover:underline"
                                 >
-                                    habibullahalquaderi2005@gmail.com
+                                    Email
                                 </a>
                             </p>
                         </div>

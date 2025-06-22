@@ -17,16 +17,16 @@ const ProjectDetails = () => {
             <div>
                 <img className='w-full mb-10' src={project && project.image} alt="" />
             </div>
-            <div className='flex items-center justify-between'>
+            <div className='md:flex items-center justify-between gap-2 md:gap-0'>
             <h1 className="text-3xl font-semibold text-pink-500">{project && project.name}</h1>
-            <div className="flex space-x-4">
+            <div className="flex space-x-2 mt-3 md:mt-0 md:space-x-4">
                 <Link to={project && project.liveLink}
-                    className="px-6 py-2 bg-pink-500 text-white rounded-lg text-lg hover:bg-pink-700 transition duration-200"
+                    className="md:px-6 px-2 py-2 bg-pink-500 text-white rounded-lg text-lg hover:bg-pink-700 transition duration-200"
                 >
                     Live Demo
                 </Link>
                 <Link to={project && project.repoLink}
-                    className="px-6 py-2 border border-pink-400 bg-gray-800 text-white rounded-lg text-lg hover:bg-gray-700 transition duration-200"
+                    className="md:px-6 px-2 py-2 border border-pink-400 bg-gray-800 text-white rounded-lg text-lg hover:bg-gray-700 transition duration-200"
                 >
                     View Repository
                 </Link>

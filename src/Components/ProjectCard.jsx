@@ -7,7 +7,7 @@ const ProjectCard = ({project}) => {
     
     return (
         /* From Uiverse.io by carlosepcc */
-        <div className="card  text-gray-300  hover:brightness-90 transition-all cursor-pointer group bg-gradient-to-tl from-gray-900 to-gray-950 hover:from-gray-800 hover:to-gray-950 border-r-2 border-t-2 border-gray-900 m-4 rounded-lg overflow-hidden relative">
+        <div className="card  text-gray-300  hover:brightness-90 transition-all cursor-pointer group bg-gradient-to-tl from-gray-900 to-gray-950 hover:from-gray-800 hover:to-gray-950 border-r-2 border-t-2 border-gray-900 m- rounded-lg overflow-hidden relative">
             <div className="px-8 py-10">
                 <img className='h-56 md:h-52 w-full object-cover' src={image} alt="" />
                 <div className="uppercase font-bold text-xl mt-3">

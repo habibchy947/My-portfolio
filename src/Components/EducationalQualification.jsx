@@ -2,9 +2,9 @@ import React from 'react';
 
 const EducationalQualification = () => {
     return (
-        <div className='py-5 w-9/12 mx-auto'>
+        <div className='py-5 w-11/12 md:w-10/12 lg:w-9/12 mx-auto'>
             <h2 className='text-center text-gray-50 text-4xl md:text-5xl font-bold mb-12'>Educational Qualification</h2>
-            <div className='md:flex gap-3 space-y-5 md:space-y-0'>
+            <div className='md:flex justify-between gap-3 space-y-5 md:space-y-0'>
                 <div className='md:w-[45%] flex-col bg-gray-800 rounded-md p-10'>
                     <h2><span className='text-lg font-semibold text-gray-50'>Honors : </span>Bachelor of Social Science(Honors)</h2>
                     <h2><span className='text-lg font-semibold text-gray-50'>Institution : </span>Chittagong University</h2>
